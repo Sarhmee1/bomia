@@ -1,0 +1,34 @@
+{% extends "base.html" %}
+
+{% block title %}Dashboard{% endblock %}
+
+{% block content %}
+
+<!-- dashboard.html -->
+    <h1>Dashboard</h1>
+
+    <h2>Most Common Items Sold</h2>
+    <ul>
+        {% for name, count in most_common_items %}
+            <li>{{ name }}: {{ count }}</li>
+        {% endfor %}
+    </ul>
+
+    {% comment %} <h2>Customer Distribution by Country</h2>
+    <ul>
+        {% for country, count in zip(customer_countries, customer_counts) %}
+            <li>{{ country }}: {{ count }}</li>
+        {% endfor %}
+    </ul> {% endcomment %}
+
+    <h2>Order Count and Total Amount by Date</h2>
+    <ul>
+        {% for date, count, amount in order_data %}
+        <li>{{ date }}: Order Count - {{ count }}, Total Amount - {{ amount }}</li>
+        {% endfor %}
+    </ul>
+    <h3>Bar Plot of Most Common Items Sold</h3>
+    <img src="data:image/png;base64,{{ plot_base64 }}" alt="Most Common Items Sold">
+    
+
+{% endblock %}
