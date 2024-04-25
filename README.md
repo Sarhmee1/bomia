@@ -95,6 +95,10 @@ You can create an admin user to monitor the customers and orders made in the sho
     https://rainbowlesson-aztecamadeus-8000.codio-box.uk/
     ```
 
+7. Visit the following URL in your Web browser to view the admin:
+     ```
+    https://rainbowlesson-aztecamadeus-8000.codio-box.uk/admin
+    ```
 Templates
 ---------
 - For the templates, we create the necessary HTML folders(admin, cart, customer, orders, registration, shop) and files (base.html, nav, pagination.html) in the 'shop/templates' directory.
