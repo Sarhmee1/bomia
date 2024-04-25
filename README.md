@@ -1,6 +1,6 @@
 # BOMIA LAPTOP STORE
 
-This project is a basic shopping website that sells laptops. The laptops dataset was gotten from [Kaggle](https://www.kaggle.com/datasets/eduardowoj/exoplanets-database)
+This project is a basic shopping website that sells laptops. The laptops dataset was gotten from [Kaggle](https://www.kaggle.com/datasets?search=E-commerce+)
 
 ## SETTING UP THE APPLICATION
 How to start it
