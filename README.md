@@ -5,7 +5,7 @@ This project is a basic shopping website that sells laptops. The laptops dataset
 ## SETTING UP THE APPLICATION
 How to start it
 ----------------
-1. Create a new project folder called ‘solo’ and then cd into the folder via the terminal and execute these commands:
+1. Create a new project folder called 'solo' and then cd into the folder via the terminal and execute these commands:
    ```
    mkdir solo
    cd solo
@@ -182,3 +182,6 @@ run behave command in terminal to do testing.
 3. Add to Cart: Click the "Add to Cart" button to add a laptop to your shopping cart.
 4. Adjust Cart: In the shopping cart, adjust the quantity of laptops or remove items as needed.
 5. Checkout: Proceed to checkout to complete your purchase.
+
+# GitHub Repository
+https://github.com/Sarhmee1/bomia.git
